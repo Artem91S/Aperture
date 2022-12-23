@@ -1,0 +1,364 @@
+.wrap{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-navbar{
+    background-color:#181818;
+    color:#FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 10em;
+
+}
+.header-navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header-navbar li {
+    list-style-type: none;
+    padding: 0 1.5em;
+}
+.header-navbar div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header-navbar li a{
+    text-decoration:none;
+    color: #FFFFFF;
+    line-height: 20px;
+    font-size: 15px;
+}
+.get-template{
+    background: #FFFFFF;
+    padding: 0.5em 1.2em;
+    border-radius: 14px;
+    text-decoration:none;
+    color:#000000;
+    font-size: 16px;
+    font-weight:600;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+}
+.about-studio{
+    background: url("/image/Head-poster.png")no-repeat center/cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-end;
+    color: #FFFFFF;
+    padding-bottom: 1em;
+    position: relative;
+}
+.name{
+    color:#C0C0C0;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.about-studio h1{
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 60px;
+}
+.discription{
+    color:#C0C0C0;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    text-align: center;
+    max-width: 560px;
+    width: 100%;
+}
+.icons{
+    position: absolute;
+    right:1em;
+    bottom: 1em;
+}
+sup{
+    line-height: 12px;
+    font-size: 12px;
+    padding-right:1em;
+    color: #FFFFFF;
+}
+/*main part*/
+.what-we-do{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+.what-we-do h2{
+    padding-top: 2em;
+    font-size: 40px;
+    line-height: 45px;
+}
+.lozung{
+    color: #C0C0C0;
+    font-size: 23px;
+    line-height: 30px;
+    padding-top: 0.5em;
+}
+.kalash{
+    padding: 2em 5em 4em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 80%;
+}
+/*block photo*/
+.Architecture-Photography,.Drone-Photography,.Wildlife-Photography,.Product-Photography{
+    flex-basis: 30%;
+    padding:0.7em 0.7em;
+}
+.photo-kalash{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+.discription-kalash{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    color:#FFFFFF;
+    padding: 1em;
+    max-width: 480px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+}
+.discription-kalash h3{
+    letter-spacing: 2px;
+    padding-bottom:1em;
+}
+.discription-kalash p{
+    padding-bottom: 1.5em;
+    color: #C0C0C0;
+}
+/*button*/
+.buttom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    background:#FFFFFF;
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0.5em;
+    max-width: 120px;
+    width: 100%;
+    border-radius: 14px;
+}
+.buttom::before{
+    content: " ";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: #000000;
+    border-radius: 14px;
+}
+/*sunset and Monstera*/
+.splash-screen{
+    padding: 2em;
+    height: 75vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    line-height: 20px;
+    font-size: 15px;
+}
+.Himalayas{
+    background: url("/image/Himalayas.png")no-repeat center/cover;
+}
+.Monstera{
+    background: url("/image/Monstera.png")no-repeat center/cover;
+}
+.sunset{
+    background: url('/image/sunset.png')no-repeat center/cover;
+    background-attachment: fixed;
+}
+.splash-screen h3{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.splash-screen p{
+    max-width: 300px;
+    width: 100%;
+    padding-top: 0.5em;
+    color:#C0C0C0;
+}
+/*tools*/
+.tools{
+    display: flex;
+}
+.lef-tools{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px;
+    background: #000000;
+    flex-basis: 40%;
+}
+.lef-tools h3{
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.lef-tools .discription{
+    color:#FFFFFF;
+    text-align: start;
+}
+.right-tools{
+    height: 65vh;
+    background: url("/image/tools.png")no-repeat center/cover;
+    flex-basis: 60%;
+    position: relative;
+}
+/*clients*/
+.clients{
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.slogan-clients{
+    text-align: center;
+    padding: 100px 0;
+    color: #FFFFFF;
+}
+.slogan-clients h2{
+    font-size: 40px;
+    line-height: 42px;
+    padding-bottom: 1em;
+}
+.slogan-clients p{
+    font-size: 24px;
+    line-height: 30px;
+    color:#C0C0C0;
+}
+.logo-clients img{
+    padding-right:8em;
+}
+/*need-help*/
+.need-help{
+    color: #FFFFFF;
+    background: #000000;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.need-help h2{
+    text-align: center;
+    font-size: 40px;
+    line-height: 42px;
+    max-width: 570px;
+    padding-bottom: 1em;
+}
+.need-help p{
+    color:#C0C0C0;
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 1em;
+}
+/*footer*/
+footer{
+    background: #000000;
+}
+.bottom-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 5em 3em;
+    color: #FFFFFF;
+    height: 40vh;
+}
+.bottom-navbar img{
+    padding-bottom: 1em;
+}
+.bottom-navbar p{
+    font-size: 13px;
+    color:#C0C0C0;
+    line-height: 20px;
+}
+.bottom-navbar div{
+    padding-top: 5em;
+}
+.areas p,.page p{
+    padding-bottom: 1em;
+    color:#C0C0C0;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.areas a,.page a{
+    line-height: 40px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.Subscribe{
+    padding-top: 2em;
+    color: #FFFFFF;
+    height: 15vh;
+    margin: 0 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+}
+.Subscribe p{
+    padding-bottom: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.Subscribe span{
+    color: #C0C0C0;
+    line-height: 20px;
+    font-size: 13px;
+}
+.Subscribe a{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #FFFFFF;
+    flex-basis: 30%;
+    height: 5vh;
+    border-radius: 12px;
+}
+.Subscribe a::after{
+    content: "  ";
+    background: #000000;
+    padding: 1em 2.5em;
+    margin-right: 0.5em;
+    border-radius: 12px;
+}
+.copywriting{
+    color:#C0C0C0;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 5em;
+}
+.copywriting svg{
+padding-left: 2em;
+}
