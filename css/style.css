@@ -226,13 +226,13 @@ sup{
     font-size: 15px;
 }
 .Himalayas{
-    background: url("/image/Himalayas.png")no-repeat center/cover;
+    background: url("../image/Himalayas.png")no-repeat center/cover;
 }
 .Monstera{
-    background: url("/image/Monstera.png")no-repeat center/cover;
+    background: url("../image/Monstera.png")no-repeat center/cover;
 }
 .sunset{
-    background: url('/image/sunset.png') center/cover;
+    background: url('../image/sunset.png') center/cover;
     background-attachment: fixed;
 }
 .splash-screen h3{
@@ -270,7 +270,7 @@ sup{
 }
 .right-tools{
     height: 65vh;
-    background: url("/image/tools.png")no-repeat center/cover;
+    background: url("../image/tools.png")no-repeat center/cover;
     flex-basis: 60%;
     position: relative;
 }
