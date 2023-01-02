@@ -1,4 +1,4 @@
-const images = document.querySelectorAll(".slider");
+const images = document.querySelectorAll(".slide");
 let counter = 1;
 let timerId =setInterval(showPhoto ,3000)
    function showPhoto(){
