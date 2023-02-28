@@ -1,49 +1,54 @@
 .wrap{
+    min-width: 1200px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 .slide{
     opacity: 0;
     position: absolute;
+    height: 92vh;
+    width:100%;
 }
 .show{
     opacity: 1;
 }
-.header-navbar{
+.header__navbar{
     background-color:#181818;
     color:#FFFFFF;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 1em 10em;
-
+    padding: 20px 30px;
 }
-.header-navbar ul{
+.conteiner__menu{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    flex: 3;
 }
-.header-navbar li {
+.menu__items{
     list-style-type: none;
-    padding: 0 1.5em;
+    padding: 0 15px;
 }
-.header-navbar div {
+.navbar__conteiner {
+    min-width: 650px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-around;
 }
-.header-navbar li a{
+.menu__content{
     text-decoration:none;
     color: #FFFFFF;
     line-height: 20px;
     font-size: 15px;
 }
-.get-template{
+.menu__link{
+    flex: 1;
+    text-align: center;
     background: #FFFFFF;
-    padding: 0.5em 1.2em;
+    padding: 10px 5px;
     border-radius: 14px;
     text-decoration:none;
     color:#000000;
@@ -52,11 +57,11 @@
     line-height: 20px;
     letter-spacing: 0.4px;
 }
-.get-template:hover{
+.menu__link:hover{
     transform:scale(1.2);
     transition-duration: 1s;
 }
-.about-studio{
+.studio__discription{
     position: relative;
     height: 90vh;
     display: flex;
@@ -64,51 +69,50 @@
     align-items:center;
     justify-content: flex-end;
     color: #FFFFFF;
-    padding-bottom: 1em;
-    position: relative;
+    padding-bottom: 14px;
+
 }
 .slider-photo{
     position: relative;
 }
-.slider-photo img{
-    height: 92vh;
-    width:100%;
-}
-.name{
+.studio__slogan{
     color:#C0C0C0;
     text-transform: uppercase;
     line-height: 20px;
     font-size: 14px;
     letter-spacing: 2px;
 }
-.about-studio h1{
+.studio__title{
     font-size: 54px;
     font-weight: 400;
     line-height: 60px;
 }
-.discription{
+.studio__text__hidden{
+    display: none;
+}
+.studio__text{
     color:#C0C0C0;
     font-size: 14px;
     line-height: 20px;
-    padding-top: 1em;
-    padding-bottom: 2em;
+    padding-top: 12px;
+    padding-bottom: 25px;
     text-align: center;
     max-width: 560px;
     width: 100%;
 }
-.icons{
+.photo__icons{
     position: absolute;
-    right:1em;
-    bottom: 1em;
+    right:12px;
+    bottom: 12px;
 }
-sup{
+.icons__text{
     line-height: 12px;
     font-size: 12px;
-    padding-right:1em;
+    padding-right:12px;
     color: #FFFFFF;
 }
 /*main part*/
-.what-we-do{
+.our-work{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,57 +120,57 @@ sup{
     color: #FFFFFF;
     background-color: #000000;
 }
-.what-we-do h2{
+.our-work__title{
     padding-top: 2em;
     font-size: 40px;
     line-height: 45px;
 }
-.lozung{
+.our-work__description{
     color: #C0C0C0;
     font-size: 23px;
     line-height: 30px;
-    padding-top: 0.5em;
+    padding-top: 10px;
 }
-.kalash{
-    padding: 2em 5em 4em;
+.our-work__galary{
     display: flex;
     flex-wrap: wrap;
+    padding: 40px 10px;
+    gap:25px;
     justify-content: center;
     align-items: center;
-    flex-basis: 80%;
 }
 /*block photo*/
-.Architecture-Photography,.Drone-Photography,.Wildlife-Photography,.Product-Photography{
-    flex-basis: 30%;
-    padding:0.7em 0.7em;
+.galary__conteiner{
+    flex:1;
+
 }
-.Architecture-Photography:hover,.Drone-Photography:hover,.Wildlife-Photography:hover,.Product-Photography:hover{
+.galary__conteiner:hover{
     transform:scale(1.05);
     transition-duration: 1s;
 }
-.photo-kalash{
+.conteiner__img{
     position: relative;
     display: flex;
     align-items: flex-end;
 }
-.discription-kalash{
+.img__description{
     display: flex;
     justify-content:space-around;
     flex-direction: column;
     color:#FFFFFF;
-    padding: 1em;
+    padding: 15px;
     max-width: 480px;
     width: 100%;
     font-size: 14px;
     line-height: 20px;
     position: absolute;
 }
-.discription-kalash h3{
+.description__title{
     letter-spacing: 2px;
-    padding-bottom:1em;
+    padding-bottom:14px;
 }
-.discription-kalash p{
-    padding-bottom: 1.5em;
+.description__text{
+    padding-bottom: 20px;
     color: #C0C0C0;
 }
 /*button*/
@@ -200,7 +204,7 @@ sup{
     position:absolute;
     content:"Read more";
     text-align: center;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     padding-top: 10px;
     color:#FFFFFF;
 }
@@ -210,12 +214,12 @@ sup{
 .buttom:hover.check::before{
       content:"Check it out";
 }
-.buttom :hover{
+.buttom:hover{
     position: relative;
     transition: 1s;
 }
 /*sunset and Monstera*/
-.splash-screen{
+.section__bg{
     padding: 2em;
     height: 75vh;
     display: flex;
@@ -235,22 +239,22 @@ sup{
     background: url('../image/sunset.png') center/cover;
     background-attachment: fixed;
 }
-.splash-screen h3{
+.bg__title{
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.splash-screen p{
+.bg__description{
     max-width: 300px;
     width: 100%;
-    padding-top: 0.5em;
+    padding-top: 10px;
     color:#C0C0C0;
 }
 /*tools*/
-.tools{
+.section__tools{
     display: flex;
 }
-.lef-tools{
+.decription__tools{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -259,16 +263,18 @@ sup{
     background: #000000;
     flex-basis: 40%;
 }
-.lef-tools h3{
+.tools__title{
     font-size: 28px;
     line-height: 32px;
     color: #FFFFFF;
 }
-.lef-tools .discription{
+.tools__text{
     color:#FFFFFF;
     text-align: start;
+    line-height: 22px;
+    padding-bottom: 20px;
 }
-.right-tools{
+.tools__photo{
     height: 65vh;
     background: url("../image/tools.png")no-repeat center/cover;
     flex-basis: 60%;
@@ -284,26 +290,29 @@ sup{
     height: 60vh;
 }
 
-.slogan-clients{
+.clients__slogan{
     text-align: center;
     padding: 100px 0;
     color: #FFFFFF;
 }
-.slogan-clients h2{
+.slogan__title{
     font-size: 40px;
     line-height: 42px;
     padding-bottom: 1em;
 }
-.slogan-clients p{
+.slogan__description{
     font-size: 24px;
     line-height: 30px;
     color:#C0C0C0;
 }
-.logo-clients img{
-    padding-right:8em;
+.clients__logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 /*need-help*/
-.need-help{
+.section__help{
     color: #FFFFFF;
     background: #000000;
     height: 45vh;
@@ -312,76 +321,73 @@ sup{
     justify-content: center;
     align-items: center;
 }
-.need-help h2{
+.help__title{
     text-align: center;
     font-size: 40px;
     line-height: 42px;
     max-width: 570px;
-    padding-bottom: 1em;
+    padding-bottom: 20px;
 }
-.need-help p{
+.help__description{
     color:#C0C0C0;
     font-size: 24px;
     line-height: 30px;
-    padding-bottom: 1em;
+    padding-bottom: 20px;
 }
 /*footer*/
-footer{
+.part__footer{
     background: #000000;
 }
-.bottom-navbar{
+.footer__navbar{
     display: flex;
     justify-content: space-between;
-    padding: 3em 5em 3em;
+    padding: 20px 25px;
     color: #FFFFFF;
     height: 40vh;
 }
-.bottom-navbar img{
-    padding-bottom: 1em;
-}
-.bottom-navbar p{
+
+.navbar__description{
     font-size: 13px;
     color:#C0C0C0;
     line-height: 20px;
 }
-.bottom-navbar div{
-    padding-top: 5em;
-}
-.areas p,.page p{
+
+.styles{
     padding-bottom: 1em;
     color:#C0C0C0;
     letter-spacing: 2px;
     line-height: 20px;
     text-transform: uppercase;
 }
-.areas a,.page a{
+.page__items,.areas__items{
     line-height: 40px;
     text-decoration: none;
     color: #FFFFFF;
 }
-.Subscribe{
+.section__subscribe{
     padding-top: 2em;
     color: #FFFFFF;
     height: 15vh;
-    margin: 0 5em;
+    margin: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom:1px solid #FFFFFF;
     border-top: 1px solid #FFFFFF;
 }
-.Subscribe p{
-    padding-bottom: 2em;
+.subscribe__slogan{
+    padding-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-.Subscribe span{
+.subscribe__description{
     color: #C0C0C0;
     line-height: 20px;
     font-size: 13px;
 }
-.Subscribe a{
+.subscribe__link{
     display: flex;
+    text-decoration: none;
     justify-content: flex-end;
     align-items: center;
     background: #FFFFFF;
@@ -389,19 +395,21 @@ footer{
     height: 5vh;
     border-radius: 12px;
 }
-.Subscribe a::after{
-    content: "  ";
+.subscribe__link::after{
+    content: "SUBSCRIBE";
+    color:#FFFFFF;
+ 
     background: #000000;
-    padding: 1em 2.5em;
-    margin-right: 0.5em;
+    padding: 5px 30px;
+    margin-right: 10px;
     border-radius: 12px;
+}
+.subscribe__link:hover.subscribe__link::after{
+    padding: 5px 120px;
 }
 .copywriting{
     color:#C0C0C0;
     display: flex;
     justify-content: space-between;
-    padding: 3em 5em;
-}
-.copywriting svg{
-padding-left: 2em;
+    padding: 20px;
 }

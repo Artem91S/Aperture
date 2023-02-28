@@ -1,0 +1,200 @@
+@media(max-width:500px){
+    .wrap{
+        min-width: 300px;
+        max-width: 500px;
+    }
+    .header__navbar{
+        position: relative;
+        padding: 50px;
+    }
+    .header__logo{
+        width: 200px;
+    }
+    .conteiner__menu{
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top:100px;
+        z-index: 100;
+        height: 58vh;
+        background: rgba(108, 104, 104, 1);
+    }
+    .menu__content{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .menu__link{
+        display: none;
+    }
+    .slide-photo{
+        max-width: 500px;
+    }
+    .slide{
+        height: 50vh;
+    }
+    .studio__discription{
+        height: 47vh;
+    }
+    .studio__slogan{
+        font-size: 17px;
+        padding-bottom:1s0px;
+    }
+    .studio__title{
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+    .studio__text{
+        display: none;
+    }
+    .studio__text__hidden{
+        display: block;
+        font-size: 17px;
+        padding-bottom: 25px;
+    }
+    .sizing__icons{
+        width: 40px;
+    }
+    .icon__text{
+        font-size:32px ;
+    }
+    .our-work__galary{
+        display: block;
+    }
+  
+    .conteiner__img__width{
+       max-width: 450px;
+    }
+    .galary__conteiner:hover{
+        transform: none;
+    }
+    .galary__conteiner{
+        padding: 10px 0;
+    }
+    .our-work__description{
+        font-size: 15px;
+    }
+    .conteiner__img__width{
+        max-width: 400px;
+     }
+     .img__description{
+        max-width: 400px; 
+     }
+     .decription__title{
+        font-size: 20px;
+     }
+     .description__text{
+        max-width: 350px;
+        font-size: 15px;
+     }
+    .decription__tools{
+        padding: 0;
+        align-items: center;
+        flex-basis: 100%;
+        position: relative;
+        height: 75vh;
+        background: url('/image/tools.png')no-repeat center /cover;
+     }
+     .tools__title{
+        line-height: 45px;
+        font-size: 40px;
+        padding-bottom: 20px;
+        text-align: center;
+     }
+     .tools__text{
+        padding: 30px;
+        font-size: 18px;
+       color:#C0C0C0;
+     }
+     .bg__title{
+        font-size: 25px;
+        padding-bottom: 20px;
+     }
+     .bg__description{
+        max-width: 400px;
+        font-size: 18px;
+     }
+     .tools__photo{
+       background: none;
+       flex-basis: 0;
+     }
+     .tools__photo__position{
+        bottom: -20px;
+        right: 0;
+        width: 275px;
+     }
+     .clients{
+        height: 70vh;
+        padding: 50px 0 20px;
+     }
+     .clients__slogan{
+        padding: 50px 0;
+     }
+     .slogan__title{
+        font-size: 40px;
+        line-height: 45px;
+     }
+     .clients__logo{
+        flex-wrap: wrap;
+        padding: 5px 10px;
+     }
+     .footer__navbar{
+        gap:10px
+     }
+     .navbar__block{
+        flex: 1;
+     }
+     .footer__page{
+        display: none;
+     }
+     .footer__navbar{
+        height: 25vh;
+     }
+     .subscribe__link{
+        flex-basis: 30%;
+     }
+     .subscribe__link::after{
+        padding: 5px 19px;
+     }
+     .subscribe__link:hover.subscribe__link::after{
+        padding: 9px 36px;
+    }
+    .subscribe__link:hover.subscribe__link{
+        flex-basis: 40%;
+    }
+    .navigat__btn{
+        right: 59px;
+        display: flex;
+        gap:6px;
+        flex-direction:column;
+        align-items: center;
+        position: absolute;
+    }
+    .lines{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:5px;
+    }
+    .linse__size{
+        fill:#ffff;
+    }
+    .cross-lines__size{
+        fill:#ffffFF;
+    }
+    .cross-lines{
+        position: relative;
+        bottom: 8px;
+        right: 15px;
+    }
+    .cross-lines__icon{
+        position: absolute;
+    }
+    .active-menu{
+        display: none;
+    }
+}
+@media(max-width:450px){
+   
+     
+}

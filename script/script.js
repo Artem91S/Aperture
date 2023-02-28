@@ -7,3 +7,12 @@ let timerId =setInterval(showPhoto ,3000)
     if(counter === images.length-1)counter = 0;
     else counter++; 
 }
+const btn = document.querySelector('.navigat__btn');
+  const menu = document.querySelector('.navbar__conteiner');
+  const lines =document.querySelector('.lines');
+  const crossLines=  document.querySelector('.cross-lines'); 
+  btn.addEventListener('click', ()=>{
+      menu.classList.toggle('active-menu');
+      lines.classList.toggle('active-menu');
+      crossLines.classList.toggle('active-menu');
+  })
