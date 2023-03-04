@@ -142,7 +142,7 @@
         max-width: 660px;
     }
     .header__logo{
-        width: 75px;
+        width: 70px;
     }
     .studio__text{
         display: none;
@@ -150,11 +150,13 @@
     .studio__text__hidden{
         display: block;
         font-size: 14px;
-        
         padding: 25px 0;
     }
+    .conteiner__menu{
+        padding-right: 5px;
+    }
     .navbar__conteiner {
-        min-width: 400px;
+        min-width: 375px;
     }
     .menu__content{
         font-size: 10px;
