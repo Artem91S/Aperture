@@ -12,6 +12,9 @@
 .show{
     opacity: 1;
 }
+.navigat__btn{
+    display: none;
+}
 .header__navbar{
     background-color:#181818;
     color:#FFFFFF;

@@ -8,7 +8,7 @@ let timerId =setInterval(showPhoto ,3000)
     else counter++; 
 }
 const btn = document.querySelector('.navigat__btn');
-  const menu = document.querySelector('.navbar__conteiner');
+  const menu = document.querySelector('.conteiner__menu');
   const lines =document.querySelector('.lines');
   const crossLines=  document.querySelector('.cross-lines'); 
   btn.addEventListener('click', ()=>{
