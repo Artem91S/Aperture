@@ -31,6 +31,9 @@
     .our-work__galary{
         flex-direction: column;
     }
+    .galary__conteiner{
+        flex: 1;
+    }
     .img__description{
         max-width: 550px;
         max-height: 200px;

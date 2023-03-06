@@ -143,10 +143,7 @@
     align-items: center;
 }
 /*block photo*/
-.galary__conteiner{
-    flex:1;
 
-}
 .galary__conteiner:hover{
     transform:scale(1.05);
     transition-duration: 1s;
