@@ -258,7 +258,7 @@
         flex-basis: 100%;
         position: relative;
         height: 75vh;
-        background: url('/image/tools.png')no-repeat center /cover;
+        background: url('../image/tools.png')no-repeat center /cover;
      }
      .tools__title{
         line-height: 45px;
